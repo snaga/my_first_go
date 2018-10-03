@@ -1,6 +1,15 @@
 package cart
 
-import "testing"
+import (
+//    "fmt"
+    "testing"
+)
+
+/*
+func TestMain(m *testing.M) {
+    fmt.Println("hello")
+}
+*/
 
 func TestAddAndGetProductsInCart(t *testing.T) {
     c := New()
